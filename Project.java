@@ -48,17 +48,17 @@ public class Project extends JFrame implements ActionListener{
         studentleave.setBackground(Color.WHITE);
         leave.add(studentleave);
 
-        JMenu leavedetails = new JMenu("Apply Leave Details");
-        leavedetails.setForeground(Color.RED);
-        mb.add(leavedetails);
+//         JMenu leavedetails = new JMenu("Apply Leave Details");
+//         leavedetails.setForeground(Color.RED);
+//         mb.add(leavedetails);
 
-        JMenuItem facultyleavedetails=new JMenuItem(" Faculty Leave Details");
-        facultyleavedetails.setBackground(Color.WHITE);
-        leavedetails.add(facultyleavedetails);
+//         JMenuItem facultyleavedetails=new JMenuItem(" Faculty Leave Details");
+//         facultyleavedetails.setBackground(Color.WHITE);
+//         leavedetails.add(facultyleavedetails);
 
-        JMenuItem studentleavedetails=new JMenuItem(" Student Leave Details");
-        studentleavedetails.setBackground(Color.WHITE);
-        leavedetails.add(studentleavedetails);
+//         JMenuItem studentleavedetails=new JMenuItem(" Student Leave Details");
+//         studentleavedetails.setBackground(Color.WHITE);
+//         leavedetails.add(studentleavedetails);
 
         JMenu exam = new JMenu("Examination");
         exam.setForeground(Color.BLUE);
@@ -72,17 +72,17 @@ public class Project extends JFrame implements ActionListener{
         entermarks.setBackground(Color.WHITE);
         exam.add(entermarks);
 
-        JMenu updateinfo = new JMenu("Update Details");
-        updateinfo.setForeground(Color.RED);
-        mb.add(updateinfo);
+//         JMenu updateinfo = new JMenu("Update Details");
+//         updateinfo.setForeground(Color.RED);
+//         mb.add(updateinfo);
 
-        JMenuItem facultyinfo=new JMenuItem(" Update Faculty Information");
-        facultyinfo.setBackground(Color.WHITE);
-        updateinfo.add(facultyinfo);
+//         JMenuItem facultyinfo=new JMenuItem(" Update Faculty Information");
+//         facultyinfo.setBackground(Color.WHITE);
+//         updateinfo.add(facultyinfo);
 
-        JMenuItem studentinfo=new JMenuItem(" Update Student Information");
-        studentinfo.setBackground(Color.WHITE);
-        updateinfo.add(studentinfo);
+//         JMenuItem studentinfo=new JMenuItem(" Update Student Information");
+//         studentinfo.setBackground(Color.WHITE);
+//         updateinfo.add(studentinfo);
 
         JMenu fee = new JMenu("Fee Details");
         fee.setForeground(Color.BLUE);
@@ -92,9 +92,9 @@ public class Project extends JFrame implements ActionListener{
         feeStructure.setBackground(Color.WHITE);
         fee.add(feeStructure);
 
-        JMenuItem feeform=new JMenuItem(" Student Fee Form");
-        feeform.setBackground(Color.WHITE);
-        fee.add(feeform);
+//         JMenuItem feeform=new JMenuItem(" Student Fee Form");
+//         feeform.setBackground(Color.WHITE);
+//         fee.add(feeform);
 
         JMenu utility = new JMenu("Utility");
         utility.setForeground(Color.RED);
